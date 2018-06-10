@@ -1,0 +1,30 @@
+{
+  "name": "webpack-starterkit",
+  "version": "1.0.0",
+  "description": "A starter kit",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack",
+    "build:prod": "webpack -p",
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HalidOdat/WebPack-StarterKit.git"
+  },
+  "keywords": [],
+  "author": "Halid Odat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HalidOdat/WebPack-StarterKit/issues"
+  },
+  "homepage": "https://github.com/HalidOdat/WebPack-StarterKit#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0"
+  }
+}
