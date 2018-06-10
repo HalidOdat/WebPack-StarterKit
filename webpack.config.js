@@ -18,15 +18,10 @@ const config = {
         rules: [
             {
                 test: /\.css$/,
-                use: {loader: 'style-loader!css-loader'}
-            },
-            {
-                test: /\.scss$/,
                 use: [
                     // fallback to style-loader in development
                     devMode ? "style-loader" : MiniCssExtractPlugin.loader,
-                    "css-loader",
-                    "sass-loader"
+                    "css-loader"
                 ]
             }
         ]
